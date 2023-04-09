@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--BLOCK ELEMENT MODIFIER-->
+
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list-left">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">DANASA
+                            </a>
+                        </li>
+                        <div class="pentagon"></div>
+                    </ul>
+
+                    <ul class="header__navbar-list-right">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Trang chủ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Tin tức</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Liên hệ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container__ticketseller">
+            <div class="grid">
+                <div class="contain__ticketseller-banner">
+                    <img src="./assets/img/banner.png" alt="Banner" width="1120px" height="456px" />
+                </div>
+                <div class="container__contain-ticketseller">
+                    <div class="container__contain-ticketseller-wrap">
+                        <div class="searchTicket">
+                            <div class="searchTicket__item">
+                                <div class="searchTicket__item-left">
+                                    <span class="favicon icon-location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                </div>
+                                <div class="searchTicket__item-right">
+                                    <span class="searchTicket__item__title">Tỉnh đi</span>
+                                    <h3 data-point-target="pointUp">Chọn bến lên</h3>
+                                </div>
+                            </div>
+
+                            <div class="searchTicket__item">
+                                <div class="searchTicket__item-left">
+                                    <span class="favicon icon-location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </span>
+                                </div>
+
+                                <div class="searchTicket__item-right">
+                                    <span class="searchTicket__item__title">Tỉnh đến</span>
+                                    <h3 data-point-target="pointUp">Chọn bến đến</h3>
+                                </div>
+                            </div>
+
+                            <div class="searchTicket__item">
+                                <div class="searchTicket__item-left">
+                                    <span class="favicon icon-search">
+                                        <i class="fa-solid fa-calendar-day"></i>
+                                    </span>
+                                </div>
+
+                                <div class="searchTicket__item-right">
+                                    <span class="searchTicket__item__title">Ngày khởi hành</span>
+                                    <input class="ticket-date" readonly="readOnly">
+                                </div>
+                            </div>
+
+                            <div class="searchTicket__search">
+                                <button data-action="searchTrip" onclick="">
+                                    <span class="favicon icon-search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span>
+                                    Tìm chuyến
+                                </button>
+                            </div>
+                        </div>
+                        <div class="booking-step">
+                            <h3>DỄ DÀNG ĐẶT XE TRÊN WEBSITE</h3>
+                            <div class="booking-step__content">
+                                <div class="booking-step__item">
+                                    <span class="avicon"><svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.8" cx="30" cy="30" r="30" fill="#FFFFFF"></circle>
+                                            <path
+                                                d="M30 28C30.6593 28 31.3037 27.8045 31.8519 27.4382C32.4001 27.072 32.8273 26.5514 33.0796 25.9423C33.3319 25.3332 33.3979 24.663 33.2693 24.0164C33.1407 23.3698 32.8232 22.7758 32.357 22.3096C31.8908 21.8435 31.2969 21.526 30.6503 21.3974C30.0037 21.2688 29.3335 21.3348 28.7244 21.5871C28.1153 21.8394 27.5947 22.2666 27.2284 22.8148C26.8622 23.3629 26.6667 24.0074 26.6667 24.6667C26.6667 25.5507 27.0178 26.3986 27.643 27.0237C28.2681 27.6488 29.1159 28 30 28ZM28.8167 39.5167C28.9716 39.6729 29.1559 39.7969 29.359 39.8815C29.5621 39.9661 29.78 40.0097 30 40.0097C30.22 40.0097 30.4379 39.9661 30.641 39.8815C30.844 39.7969 31.0284 39.6729 31.1833 39.5167L38 32.6833C39.5832 31.1009 40.6616 29.0845 41.0988 26.8891C41.5359 24.6937 41.3121 22.418 40.4558 20.3498C39.5994 18.2816 38.149 16.5138 36.2878 15.2701C34.4267 14.0263 32.2385 13.3625 30 13.3625C27.7615 13.3625 25.5733 14.0263 23.7122 15.2701C21.851 16.5138 20.4005 18.2816 19.5442 20.3498C18.6878 22.418 18.4641 24.6937 18.9012 26.8891C19.3383 29.0845 20.4167 31.1009 22 32.6833L28.8167 39.5167ZM22.05 23.9C22.1639 22.7117 22.5417 21.5638 23.1559 20.5402C23.77 19.5166 24.6051 18.643 25.6 17.9833C26.907 17.1252 28.4364 16.6679 30 16.6679C31.5635 16.6679 33.093 17.1252 34.4 17.9833C35.3883 18.6407 36.2186 19.509 36.8312 20.5256C37.4438 21.5423 37.8236 22.682 37.9431 23.863C38.0626 25.0439 37.919 26.2366 37.5225 27.3554C37.126 28.4742 36.4865 29.4912 35.65 30.3333L30 35.9833L24.35 30.3333C23.5125 29.4994 22.8715 28.4892 22.4737 27.3763C22.0758 26.2635 21.9311 25.0759 22.05 23.9ZM41.6667 43.3333H18.3333C17.8913 43.3333 17.4674 43.5089 17.1548 43.8215C16.8423 44.134 16.6667 44.558 16.6667 45C16.6667 45.442 16.8423 45.866 17.1548 46.1785C17.4674 46.4911 17.8913 46.6667 18.3333 46.6667H41.6667C42.1087 46.6667 42.5326 46.4911 42.8452 46.1785C43.1577 45.866 43.3333 45.442 43.3333 45C43.3333 44.558 43.1577 44.134 42.8452 43.8215C42.5326 43.5089 42.1087 43.3333 41.6667 43.3333Z"
+                                                fill="#4B8EFA"></path>
+                                        </svg>
+                                    </span>
+                                    <p>Chọn thông tin hành trình và ấn Tìm chuyến</p>
+                                </div>
+                                <span class="avicon avicon-step icon-arrow-right-bg">
+                                    <i id="fa-soild-icon1" class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <div class="booking-step__item">
+                                    <span class="avicon">
+                                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="30" cy="30" r="30" fill="#FFFFFF"></circle>
+                                            <path
+                                                d="M45.0067 23.2917V20C45.0067 16.3233 42.0167 13.3333 38.34 13.3333H21.6733C17.9967 13.3333 15.0067 16.3233 15.0067 20V23.33L14.88 23.3367C14.4597 23.367 14.0664 23.5555 13.7795 23.8641C13.4925 24.1727 13.3331 24.5786 13.3333 25V28.3333C13.3333 28.7754 13.5089 29.1993 13.8215 29.5118C14.134 29.8244 14.558 30 15 30H15.0067V40C15.0067 41.225 15.6783 42.2867 16.6667 42.8667V45C16.6667 45.442 16.8423 45.866 17.1548 46.1785C17.4674 46.4911 17.8913 46.6667 18.3333 46.6667H20C20.442 46.6667 20.8659 46.4911 21.1785 46.1785C21.4911 45.866 21.6667 45.442 21.6667 45V43.3333H38.3333V45C38.3333 45.442 38.5089 45.866 38.8215 46.1785C39.134 46.4911 39.558 46.6667 40 46.6667H41.6667C42.1087 46.6667 42.5326 46.4911 42.8452 46.1785C43.1577 45.866 43.3333 45.442 43.3333 45V42.8733C43.84 42.5835 44.2614 42.1654 44.5552 41.661C44.8489 41.1566 45.0046 40.5837 45.0067 40V30C45.4487 30 45.8726 29.8244 46.1852 29.5118C46.4977 29.1993 46.6733 28.7754 46.6733 28.3333V25.1033C46.6925 24.8447 46.6514 24.5851 46.5533 24.345C46.215 23.5333 45.495 23.3383 45.0067 23.2917ZM41.6767 40H18.34V31.6667H41.675L41.6767 40ZM28.34 21.6667V28.3333H18.34V21.6667H28.34ZM41.6733 21.6667V28.3333H31.6733V21.6667H41.6733ZM21.6733 16.6667H38.34C39.5667 16.6667 40.6317 17.3417 41.21 18.3333H18.8033C19.3817 17.3417 20.4467 16.6667 21.6733 16.6667Z"
+                                                fill="#4B8EFA"></path>
+                                            <path
+                                                d="M22.5 38.3333C23.8807 38.3333 25 37.214 25 35.8333C25 34.4526 23.8807 33.3333 22.5 33.3333C21.1193 33.3333 20 34.4526 20 35.8333C20 37.214 21.1193 38.3333 22.5 38.3333Z"
+                                                fill="#4B8EFA"></path>
+                                            <path
+                                                d="M37.5 38.3333C38.8807 38.3333 40 37.214 40 35.8333C40 34.4526 38.8807 33.3333 37.5 33.3333C36.1193 33.3333 35 34.4526 35 35.8333C35 37.214 36.1193 38.3333 37.5 38.3333Z"
+                                                fill="#4B8EFA"></path>
+                                        </svg>
+                                    </span>
+                                    <p>Chọn chuyến, chỗ ngồi phù hợp và điền thông tin</p>
+                                </div>
+                                <span class="avicon avicon-step icon-arrow-right-bg">
+                                    <i id="fa-solid-icon2" class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <div class="booking-step__item">
+                                    <span class="avicon">
+                                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="30" cy="30" r="30" fill="#FFFFFF"></circle>
+                                            <path
+                                                d="M43.3333 16.6667H16.6667C14.8283 16.6667 13.3333 18.1617 13.3333 20V40C13.3333 41.8383 14.8283 43.3333 16.6667 43.3333H43.3333C45.1717 43.3333 46.6667 41.8383 46.6667 40V20C46.6667 18.1617 45.1717 16.6667 43.3333 16.6667ZM16.6667 20H43.3333V23.3333H16.6667V20ZM16.6667 40V30H43.335L43.3367 40H16.6667Z"
+                                                fill="#4B8EFA"></path>
+                                            <path d="M20 33.3333H30V36.6667H20V33.3333Z" fill="#4B8EFA"></path>
+                                        </svg></span>
+                                    <p>Tiến hành thanh toán online</p>
+                                </div>
+                                <span class="avicon avicon-step icon-arrow-right-bg">
+                                    <i id="fa-solid-icon3" class="fa-solid fa-arrow-right"></i>
+                                </span>
+                                <div class="booking-step__item">
+                                    <span class="avicon"><svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="30" cy="30" r="30" fill="#FFFFFF"></circle>
+                                            <path
+                                                d="M25 26.6667C24.558 26.6667 24.1341 26.8423 23.8215 27.1548C23.5089 27.4674 23.3333 27.8913 23.3333 28.3333V31.6667C23.3333 32.1087 23.5089 32.5326 23.8215 32.8452C24.1341 33.1577 24.558 33.3333 25 33.3333C25.442 33.3333 25.866 33.1577 26.1785 32.8452C26.4911 32.5326 26.6667 32.1087 26.6667 31.6667V28.3333C26.6667 27.8913 26.4911 27.4674 26.1785 27.1548C25.866 26.8423 25.442 26.6667 25 26.6667ZM45 28.3333C45.442 28.3333 45.866 28.1577 46.1785 27.8452C46.4911 27.5326 46.6667 27.1087 46.6667 26.6667V20C46.6667 19.558 46.4911 19.1341 46.1785 18.8215C45.866 18.5089 45.442 18.3333 45 18.3333H15C14.558 18.3333 14.1341 18.5089 13.8215 18.8215C13.5089 19.1341 13.3333 19.558 13.3333 20V26.6667C13.3333 27.1087 13.5089 27.5326 13.8215 27.8452C14.1341 28.1577 14.558 28.3333 15 28.3333C15.442 28.3333 15.866 28.5089 16.1785 28.8215C16.4911 29.1341 16.6667 29.558 16.6667 30C16.6667 30.442 16.4911 30.866 16.1785 31.1785C15.866 31.4911 15.442 31.6667 15 31.6667C14.558 31.6667 14.1341 31.8423 13.8215 32.1548C13.5089 32.4674 13.3333 32.8913 13.3333 33.3333V40C13.3333 40.442 13.5089 40.866 13.8215 41.1785C14.1341 41.4911 14.558 41.6667 15 41.6667H45C45.442 41.6667 45.866 41.4911 46.1785 41.1785C46.4911 40.866 46.6667 40.442 46.6667 40V33.3333C46.6667 32.8913 46.4911 32.4674 46.1785 32.1548C45.866 31.8423 45.442 31.6667 45 31.6667C44.558 31.6667 44.1341 31.4911 43.8215 31.1785C43.5089 30.866 43.3333 30.442 43.3333 30C43.3333 29.558 43.5089 29.1341 43.8215 28.8215C44.1341 28.5089 44.558 28.3333 45 28.3333ZM43.3333 25.3C42.3681 25.6503 41.5341 26.2894 40.9447 27.1303C40.3554 27.9712 40.0392 28.9731 40.0392 30C40.0392 31.0269 40.3554 32.0288 40.9447 32.8697C41.5341 33.7106 42.3681 34.3497 43.3333 34.7V38.3333H26.6667C26.6667 37.8913 26.4911 37.4674 26.1785 37.1548C25.866 36.8423 25.442 36.6667 25 36.6667C24.558 36.6667 24.1341 36.8423 23.8215 37.1548C23.5089 37.4674 23.3333 37.8913 23.3333 38.3333H16.6667V34.7C17.6319 34.3497 18.4659 33.7106 19.0553 32.8697C19.6446 32.0288 19.9608 31.0269 19.9608 30C19.9608 28.9731 19.6446 27.9712 19.0553 27.1303C18.4659 26.2894 17.6319 25.6503 16.6667 25.3V21.6667H23.3333C23.3333 22.1087 23.5089 22.5326 23.8215 22.8452C24.1341 23.1577 24.558 23.3333 25 23.3333C25.442 23.3333 25.866 23.1577 26.1785 22.8452C26.4911 22.5326 26.6667 22.1087 26.6667 21.6667H43.3333V25.3Z"
+                                                fill="#4B8EFA"></path>
+                                        </svg></span>
+                                    <p>Nhận mã và lên xe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__paymentIntro">
+                    <div class="container__paymentIntro-title">
+                        <h3 class="container__paymentIntro-head">THANH TOÁN NHANH CHÓNG VÀ TIỆN LỢI</h3>
+                    </div>
+                    <div class="container__paymentIntro-pay">
+                        <div class="container__pay-left">
+                            <div class="container__pay-inner-left">
+                                <i class="fa-sharp fa-solid fa-money-check-dollar"></i>
+                            </div>
+
+                            <div class="container__pay-inner-right">
+                                <p>Thanh toán trực tiếp bằng tiền mặt</p>
+                            </div>
+                        </div>
+
+                        <div class="container_pay-right">
+                            <span>
+                                <img src="./assets/img/MoneyPayment.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container__introBus">
+                    <div class="container__introBus-title">
+                        <h3 class="container__introBus-head">GIỚI THIỆU VỀ CHÚNG TÔI</h3>
+                    </div>
+                    <div class="container__introBus-content">
+                        <div class="introBus-content-left">
+                            <div class="introBus__name">
+                                
+                                <span>LÀ CHÚNG TÔI <i class="fa-light fa-horizontal-rule"></i></span>
+                                
+                            </div>
+                            <div class="introBus__nameMain">
+                                <span>DANASA BUS STATION</span>
+                            </div>
+                            <p>Bằng công nghệ hiện đại chuẩn quốc tế và mô hình hoạt động chuyên nghiệp, Danasa cam kết sẽ đem đến những trải nghiệm tuyệt vời cho hành khách trong quá trình sử dụng các loại hình dịch vụ của nhà xe.</p>
+                            <div class="introBus-content-row">
+                                <div class="introBus-content-left-col-1">
+                                    <ul>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Hàng ghế rộng rãi</li>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Đạt chuẩn an toàn</li>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Thanh toán dễ dàng</li>
+                                    </ul>
+                                    <ul>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Nội thất cao cấp</li>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Công nghệ động cơ mới</li>
+                                        <li><i class="fa-thin fa-arrow-right"></i>Đội ngũ nhân viên chuyên nghiệp</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="introBus-content-right" style="width: 80%;">
+                            <div class="introBus-content-left-col-2">
+                                <img src="./assets/img/xe_xanh2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row-footer">
+                    <div class="col grid__column-intro">
+                        <div class="col__column-inner">
+                            <img width="220" height="150" src="./assets/img/footer_danasa.png"
+                                class="attachment-original size-original" alt="">
+                            <div class="icon-box-text last-reset">
+                                <p style="width: 60%; text-align-last: center;">Công ty cổ phần xe khách Danasa Bus
+                                    Lines</p>
+                            </div>
+
+                            <div class="social-icons follow-icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col grid__column-lienhe">
+                        <div class="col-inner">
+                            <h3 style="padding-right: -20px;width: 250px;">THÔNG TIN LIÊN HỆ</h3>
+                            <div class="icon-box icon-box-left text-left">
+                                <div class="icon-box-img" style="width: 100%">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <div class="icon-box-text last-reset">
+                                        <p style="width: 90%; ">54 Nguyễn Lương Bằng, Hòa Khánh Bắc,
+                                            Liên Chiểu, Đà Nẵng </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="icon-box icon-box-left text-left">
+                                <div class="icon-box-img" style="width: 70%">
+                                    <i class="fa-solid fa-phone" style="font-size: 17px;"></i>
+                                    <div class="icon-box-text last-reset">
+                                        <p>076 922 0162</p>
+                                    </div>
+                                </div>
+
+                                <div class="icon-box icon-box-left text-left">
+                                    <div class="icon-box-img" style="width: 70%">
+                                        <i class="fa-solid fa-envelopes-bulk" style="font-size: 17px;"></i>
+                                        <div class="icon-box-text last-reset">
+                                            <p>dt.dhbk@dut.udn.vn</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col grid__column-hinhanh">
+                        <div class="col-inner">
+                            <h3>HÌNH ẢNH</h3>
+                            <div class="grid__row-3-col-3">
+                                <div class="galary-col col">
+                                    <div class="container">
+                                        <img src="./assets/img/xe_do.jpg" alt="Xe đỏ">
+                                        <img src="./assets/img/xe_xanh2.jpg" alt="Xe đỏ">
+                                    </div>
+                                    <div class="container">
+                                        <img src="./assets/img/xe_xanh1.jpg" alt="Xe đỏ">
+                                        <img src="./assets/img/xe_do2.jpg" alt="Xe đỏ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col grid__column-dangky">
+                        <div class="col-inner">
+                            <h3 style="width: 250px;">ĐĂNG KÝ</h3>
+                            <p>Đăng ký để nhận được thông tin mới nhất từ chúng tôi.</p>
+                            <div role="form">
+                                <form>
+                                    <p>
+                                        <span class="email-dang-ky">
+                                            <input type="email" name="email-dang-ky" value="" size="35" placeholder="Email..." class="nhapEmail">
+                                        </span>
+                                    <div class="email-btn-dang-ky">
+                                        <input type="submit" value="Đăng ký" class="btnDangKy">
+                                    </div>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

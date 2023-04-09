@@ -1,0 +1,60 @@
+.app{
+    background-color: rgba(245, 245, 245, 1) !important;
+}
+.contact .content-contact{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-contact .contact-title{
+    background-color: var(--white-color) !important;
+    /* border: 1.2px solid #000; */
+    margin-top: 3rem;
+    margin-bottom: 11rem;
+    margin-right: 4rem;
+    margin-left: -1rem;
+}
+.content-contact .detail-frame{
+    border: 1.2px solid #000;
+    margin: 0.2rem;
+}
+.content-contact .contact-info{
+    border: 1.2px solid #000;
+    background-color: #FFFFFF;
+}
+.content-contact .info-col{
+    flex: 2;
+}
+.content-contact .title-col{
+    flex: 3;
+}
+.contact-title .title-line1{
+    color: rgba(37, 70, 122, 1);
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+.contact-info .info-name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+.contact-info .info{
+    color: rgba(133, 133, 133, 1);
+    margin: 0 5rem;
+    margin-bottom: 4rem;
+}
+.contact .media .icon-media{
+    color: rgba(150, 188, 250, 1);
+}
+.grid-two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-self: center;
+}

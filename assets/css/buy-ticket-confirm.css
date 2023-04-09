@@ -1,0 +1,207 @@
+.app{
+    background-color: rgba(245, 245, 245, 1) !important;
+}
+.header{
+    top: 0;
+}
+.container__ticketConfirm {
+    position: relative;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.container__ticketConfirm .grid {
+    position: relative;
+    padding: 0 15rem;
+}
+
+.container__ticketConfirm .nav-bar-step{
+    position: relative;
+    background-color: #FFFFFF;
+    z-index: 0;
+}
+.container__content {
+    background: white;
+}
+
+.container__content-nameStep {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.steps-line {
+    position: relative;
+    padding: 3rem 3rem 0 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.step-circle {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.step-circle-second,
+.step-circle-third,
+.step-circle-first {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #4B8EFA;
+    background-color: #4B8EFA;
+    border-radius: 2rem;
+    justify-content: center;
+
+    align-items: center;
+    display: flex;
+
+}
+
+.step-circle-fourth {
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #4B8EFA;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    justify-content: center;
+
+    align-items: center;
+    display: flex;
+
+}
+
+.step-circle-second .text,
+.step-circle-third .text,
+.step-circle-first .text {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.step-circle-fourth .text {
+    color: #4B8EFA;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.title-active {
+    font-weight: 700;
+    position: absolute;
+    justify-content: center;
+    width: max-content;
+    height: 4rem;
+    top: -1rem;
+    display: flex;
+    align-self: flex-end;
+    font-size: 1.3rem;
+}
+
+.container__content-lineStep {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 3rem;
+}
+
+.container__content-lineStraight {
+    display: flex;
+    position: relative; 
+    /* Sửa */
+     width: 80%; 
+    left: 10%; 
+    /* ------- */
+     top: -4.7rem;
+    height: .6rem;
+    z-index: -1;
+    border-radius: 2.5px;
+    background-color: #eff1f2;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.step-line {
+    flex: 1;
+}
+
+.step-line-third {
+    position: relative;
+    max-width: 100%; /* Sửa */
+    z-index: -1;
+    border-radius: 2.5px;
+    background-color: #4b8efa;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.buy-ticket-step3{
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+.buy-ticket-step3 .table-info{
+    background-color: rgba(241, 237, 237, 1);
+    border-radius: 15px;
+}
+.table-info .table-title{
+    background-color:#4B8EFA;
+    color: #FFFFFF;
+    line-height: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+.table-info .sub-table-info-ticket,
+.table-info .sub-table-info-customer{
+    background-color: #FFFFFF;
+    padding: 0.1rem 3rem;
+}
+.table-info .sub-table-title{
+    margin-left: 2rem;
+}
+.table-info .total-money{
+margin-right: 2.5rem;
+padding-bottom: 0.1rem;
+text-align: right;
+font-size: 18px;
+}
+.grid-full-col{
+    display: flex;
+    flex-direction: row;
+}
+.table-info .name{
+    color: rgba(0, 0, 0, 0.5);
+}
+.sub-table-info-customer .col-1{
+    width: 20%;
+}
+.sub-table-info-ticket .col-4,
+.sub-table-info-ticket .col-1,
+.sub-table-info-ticket .col-3{
+    width: 20%;
+}
+.sub-table-info-ticket .col-2{
+    width: 35%;
+}
+.buy-ticket-step3 .but{
+    margin-top: 5rem;
+    justify-content: center;
+}
+.buy-ticket-step3 .but .back{
+    border-radius: 50px;
+    width: 25rem;
+    height: 5rem;
+    background-color: #FFFFFF;
+    border: none;
+    margin-right: 2rem;
+}
+.buy-ticket-step3 .but .confirm{
+    border-radius: 50px;
+    width: 25rem;
+    height: 5rem;
+    background-color: #4B8EFA;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 2rem;
+}
+.buy-ticket-step3 .but .fa-chevron-left{
+    width: 30px;
+}

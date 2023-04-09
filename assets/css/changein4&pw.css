@@ -1,0 +1,81 @@
+.container__change-pw .content-change-pw,
+.container__change-in4 .content-change-in4{   
+    height: auto;
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+}
+
+.container__change-pw .line2,
+.container__change-in4 .line2{
+    width: 32rem;
+    height: 0.3rem;
+    background-color: var(--blue-color);
+    ;
+}
+.container__change-pw .table,
+.container__change-in4 .table{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    background-color: rgba(241, 237, 237, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(218, 215, 215, 1);
+}
+.table .but{
+    /* font-weight: bold; */
+    border: 1.1px solid var(--blue-color) ;
+    height: 4rem;
+    width: 11rem;
+    box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.table .but-exit{
+    background-color: #FFFFFF;
+    color: var(--blue-color);
+    
+}
+.table .but-save{
+    background-color:var(--blue-color) ;
+    color: #FFFFFF;
+}
+.table .button{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.container__change-pw .sub-table,
+.container__change-in4 .sub-table{
+    margin:  0 5rem;
+}
+.table-title{
+    padding-top: 2rem;
+}
+.sub-table .width-45{
+    width: 45%;
+}
+.textbox{
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px ;
+}
+.select{
+    height: 4rem;
+    border-radius: 15px;
+    border: 0px ;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+}
+.Text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 0.5rem;
+}
+.icon{
+    width: 25px;
+    height: 20px;
+}
+.container__change-pw .title,
+.container__change-in4 .title{
+    margin-left: 7rem;
+}
