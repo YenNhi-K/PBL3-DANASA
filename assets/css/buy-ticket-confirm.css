@@ -4,18 +4,18 @@
 .header{
     top: 0;
 }
-.container__ticketConfirm {
+.container__ticketConfirm-3 {
     position: relative;
     margin-top: 5rem;
     width: 100%;
 }
 
-.container__ticketConfirm .grid {
+.container__ticketConfirm-3 .grid {
     position: relative;
     padding: 0 15rem;
 }
 
-.container__ticketConfirm .nav-bar-step{
+.container__ticketConfirm-3 .nav-bar-step{
     position: relative;
     background-color: #FFFFFF;
     z-index: 0;
@@ -103,7 +103,7 @@
     padding: 2.5rem 3rem;
 }
 
-.container__content-lineStraight {
+.container__content-lineStraight-3 {
     display: flex;
     position: relative; 
     /* Sửa */
@@ -140,6 +140,7 @@
 .buy-ticket-step3 .table-info{
     background-color: rgba(241, 237, 237, 1);
     border-radius: 15px;
+    border: 1px solid rgba(218, 215, 215, 1);
 }
 .table-info .table-title{
     background-color:#4B8EFA;

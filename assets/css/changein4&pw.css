@@ -56,11 +56,13 @@
     height: 4rem;
     border-radius: 15px;
     border: 0px ;
+    padding-left: 2rem;
 }
 .select{
     height: 4rem;
     border-radius: 15px;
     border: 0px ;
+    padding: 0 2rem;
     /* -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; */
